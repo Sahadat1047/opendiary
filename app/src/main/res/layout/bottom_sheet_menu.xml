@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_back"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_capslock_24"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:id="@+id/del_profile"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baselinered_delete_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"/>
+        </LinearLayout> <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:id="@+id/settings_profile"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baselinered_settings_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:id="@+id/privacy_profile"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baselinered_lock_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"/>
+        </LinearLayout> <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:id="@+id/logout_profile"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baselinered_power_settings_new_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

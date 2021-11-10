@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            app:cardCornerRadius="25dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_gravity="center_vertical"
+            app:cardPreventCornerOverlap="false"
+            android:elevation="8dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_request"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person" />
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_request_name_item"
+                android:textColor="@color/black"
+                android:text="Name"
+                android:paddingStart="17dp"
+                android:textSize="15sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:id="@+id/accept_request"
+                android:textSize="12sp"
+                android:textColor="@color/start"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_deco"/>
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:id="@+id/decline_request"
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:background="@drawable/button_back"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

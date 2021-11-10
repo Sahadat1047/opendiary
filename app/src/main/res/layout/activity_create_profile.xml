@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".CreateProfile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:textColor="@color/start"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="75dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_cp"
+            android:background="@drawable/ic_person"
+            android:clickable="true"
+            android:scaleType="fitCenter"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/et_name_cp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Profession"
+        android:id="@+id/et_profession_cp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:drawableLeft="@drawable/ic_baseline_work_24"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bio"
+        android:id="@+id/et_bio_cp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:drawableLeft="@drawable/ic_bio"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/et_email_cp"
+        android:layout_margin="4dp"
+        android:paddingStart="5dp"
+        android:drawablePadding="7dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"
+        android:id="@+id/et_web_cp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:drawableLeft="@drawable/ic_baseline_public_24"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+          android:text="Save Profile"
+        android:layout_margin="10dp"
+        android:background="@color/start"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+         android:layout_height="wrap_content"
+        android:id="@+id/btn_cp"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:id="@+id/progressbar_cp"/>
+
+</LinearLayout>

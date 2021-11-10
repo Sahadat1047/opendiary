@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/bottom_back"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Post"
+         android:textColor="@color/black"
+        android:id="@+id/tv_cpf4"
+        android:padding="9dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Story"
+        android:padding="9dp"
+         android:textColor="@color/black"
+        android:id="@+id/tv_csf4"
+        android:textSize="20sp"/>
+</LinearLayout>

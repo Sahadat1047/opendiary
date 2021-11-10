@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Social media</string>
+    <string name="title_activity_individual_post">IndividualPost</string>
+    <string name="tab_text_1">Photos</string>
+    <string name="tab_text_2">Videos</string>
+    <string name="tab_text_3">Stories</string>
+</resources>

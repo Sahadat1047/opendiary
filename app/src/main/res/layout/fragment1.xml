@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:id="@+id/ib_menu_f1"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="left|center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY PROFILE"
+            android:textColor="@color/red"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:id="@+id/ib_edit_f1"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="right|center_vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardCornerRadius="50dp"
+            android:layout_gravity="center_vertical"
+            android:elevation="8dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_f1"
+                android:background="@drawable/ic_person"
+                android:clickable="true"
+                android:scaleType="fitCenter"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_f1"
+                android:layout_marginBottom="2dp"
+                android:hint="name"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:gravity="start"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_prof_f1"
+                android:layout_marginBottom="2dp"
+                android:hint="profession"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textcolorgrey"
+                android:gravity="start"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="PRIMARY DETAILS"
+        android:background="@color/grey"
+        android:paddingStart="40dp"
+        android:padding="5dp"
+        android:paddingLeft="40dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/textcolorgrey"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:id="@+id/tv_bio_f1"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/textcolorgrey"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/tv_email_f1"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/textcolorgrey"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/tv_web_f1"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp" />
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/grey"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_baseline_people_24"
+            android:clickable="true"
+            android:id="@+id/tv_followers_f1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_people_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posts"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_baseline_add_photo_alternate_24"
+            android:id="@+id/tv_post_f1"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_add_photo_alternate_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_baseline_notifications_active_24"
+            android:id="@+id/tv_newf1"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_add_photo_alternate_24" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="Add Stories"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/tv_addstories_f1"
+        android:background="@drawable/border_deco"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:background="@drawable/button_back"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_sendmessage_f1"/>
+
+</LinearLayout>

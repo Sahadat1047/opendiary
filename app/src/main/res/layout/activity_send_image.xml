@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="@color/white"
+    tools:context=".SendImage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_sendImage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send Image"
+        android:background="@drawable/button_back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_sendimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not press back button until its Uploaded"
+        android:id="@+id/tv_dont"
+        android:layout_gravity="center"
+        android:textColor="@color/start"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/pb_sendImage"
+        android:visibility="invisible"/>
+
+</LinearLayout>

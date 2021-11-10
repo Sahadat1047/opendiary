@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/cardview_profile"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="4dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:cardCornerRadius="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/profile_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="name"
+                android:layout_marginBottom="4dp"
+                android:textSize="16sp"
+                android:id="@+id/tv_name_profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolorgrey"
+                android:hint="profession"
+                android:textSize="10sp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/tv_profession_profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewUser_profile"
+                android:textSize="15sp"
+                android:padding="1dp"
+                android:layout_marginBottom="4dp"
+                android:textAlignment="center"
+                android:clickable="true"
+                android:textColor="@color/start"
+                android:text="View Profile"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

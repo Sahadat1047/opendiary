@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/bottom_back"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unsend"
+        android:textColor="@color/black"
+        android:id="@+id/unsend_id"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/details_id"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/option1_id"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="options 2"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/option2_id"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:id="@+id/date_mo"
+        android:textColor="@color/textcolorgrey"
+        android:padding="4dp"
+        android:visibility="gone"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:visibility="gone"
+        android:id="@+id/time_mo"
+        android:textColor="@color/textcolorgrey"
+        android:padding="4dp"
+        android:textSize="13sp"/>
+
+
+</LinearLayout>

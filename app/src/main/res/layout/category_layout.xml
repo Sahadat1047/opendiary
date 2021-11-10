@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bottom_back"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort By"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="4dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oldest"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvOld"
+        android:fontFamily="sans-serif-light"/>
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tech"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+         android:id="@+id/tvTech"
+         android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvhealth"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvEducation"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvFood"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvSports"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvnews"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fashion"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvfashion"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beauty"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvBeauty"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lifestyle"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/tvLifestyle"
+        android:fontFamily="sans-serif-light"/>
+
+</LinearLayout>
